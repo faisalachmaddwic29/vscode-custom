@@ -1,0 +1,252 @@
+{
+    //! Workbench Settings
+    "workbench.colorCustomizations": {
+      // "inlineparameters.annotationBackground": "#282A3600",
+      // "inlineparameters.annotationForeground": "#7b82af",
+      // "scrollbar.shadow": "#24292e00"
+      "[One Dark Pro Darker]": {
+        "sideBar.background": "#181e26",
+        "activityBar.background": "#181e26",
+        "editor.background": "#1f232f",
+        // "editorIndentGuide.background1": "#243642",
+        "tab.inactiveBackground": "#191c25"
+      }
+    },
+    "workbench.editorLargeFileConfirmation": 10024,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.tree.indent": 16,
+    "workbench.startupEditor": "none",
+    // "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.enablePreview": false,
+    "workbench.statusBar.visible": true,
+    //TODO Additional
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": -1,
+
+    //! Custom CSS and JS
+    "vscode_custom_css.imports": [
+      "file:///Users/fadc/Documents/CustomVsCode/myvscode.css",
+      "file:///Users/fadc/Documents/CustomVsCode/myvscodescript.js"
+    ],
+
+    //! Terminal Configurations
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "PT Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": false,
+
+    //! Editor Settings
+    "editor.fontFamily": "PT Mono, 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 32,
+    "editor.stickyScroll.enabled": false,
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "expand",
+    "editor.letterSpacing": 1,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "300",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "on",
+    "editor.folding": true,
+    "editor.glyphMargin": true,
+    "editor.guides.indentation": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    // "editor.renderWhitespace": "all",
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.codeLens": true,
+    //TODO Bracket Pair Color
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    //! CUSTOM TEXT
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "keyword",
+            "variable.language",
+            "entity.other.attribute-name.html",
+            "entity.other.attribute-name",
+            "keyword.control",
+            "storage.type",
+            "comment",
+            "comment.block",
+            "comment.line"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "support.type.property-name.json.comments",
+          "settings": {
+            "foreground": "#a2ddff",
+            "fontStyle": "italic"
+          }
+        },
+        // {
+        //   "scope": ["comment", "punctuation.definition.comment"],
+        //   "settings": {
+        //     "fontStyle": "italic",
+        //     "foreground": "#596272"
+        //   }
+        // },
+        {
+          "scope": "keyword.operator",
+          "settings": {
+            "foreground": "#a2ddff",
+            "fontStyle": "italic bold"
+            // "foreground": "#73d0ff"
+          }
+        },
+        {
+          "scope": ["string"],
+          "settings": {
+            // "foreground": "#d5ff80"
+            "foreground": "#7cc9a5",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": ["constant.numeric"],
+          "settings": {
+            "foreground": "#b5a2ff"
+          }
+        }
+        // {
+        //   "scope": [
+        //     "support.class",
+        //     "entity.other.inherited-class",
+        //     "[entity.name](http://entity.name/)",
+        //     // "meta.class",
+        //     "variable.language"
+        //   ],
+        //   "settings": {
+        //     "foreground": "#72bdfb",
+        //     "fontStyle": ""
+        //   }
+        // }
+      ]
+    },
+
+    //! Breadcrumbs
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.filePath": "on",
+
+    //! Blade Formater
+    "bladeFormatter.format.indentSize": 4,
+    "bladeFormatter.format.useTabs": false,
+    "bladeFormatter.format.wrapAttributes": "auto",
+    "bladeFormatter.format.indentInnerHtml": false,
+
+    //! GIT Lens
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.launchpad.indicator.enabled": false,
+
+    //! JSON
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    /**
+     * Code
+     **/
+    // Include "-" in word selection.
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "emmet.includeLanguages": {
+      "blade": "html",
+      "vue-html": "html",
+      "vue": "html",
+      "react": "html",
+      "javascript": "html"
+    },
+    "files.associations": {
+      ".php_cs": "php",
+      ".php_cs.dist": "php"
+    },
+
+    /**
+     * PHP
+     **/
+    "php.suggest.basic": false,
+
+    /**
+     * Prettier
+     **/
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[tailwindcss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "explorer.sortOrder": "type",
+    "prettier.tabWidth": 4,
+    "vetur.format.options.tabSize": 4,
+    "[html]": {
+      "editor.defaultFormatter": "apility.beautify-blade",
+      "editor.formatOnSave": true
+    },
+    "editor.wordWrapColumn": 120,
+    "files.autoSave": "afterDelay",
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.linkedEditing": true,
+    "editor.formatOnSave": false,
+    // "editor.fontLigatures": false,
+    "diffEditor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "editor.minimap.maxColumn": 250,
+    "codesnap.containerPadding": "8em",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+    "editor.accessibilitySupport": "off",
+    "chat.editor.wordWrap": "on",
+    "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+    },
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.padding.top": 16,
+    // "material-icon-theme.saturation": 0,
+    // "material-icon-theme.files.color": "#42a5f5",
+    "workbench.tree.enableStickyScroll": false
+  }
